@@ -1,0 +1,23 @@
+CUE: ENRUTAMIENTO
+REBOUND EXERCISE: OBTENER PARÁMETROS PASADOS POR URL EN DJANGO
+Para resolver este ejercicio, anteriormente debe haber revisado la lectura y los 
+videos del CUE: 
+Enrutamiento.
+
+EJERCICIO:
+
+Partiendo del modelo creado en los ejercicios del Rebound y Drilling del CUE anterior, crear una URL 
+que reciba como parámetro una cadena no vacía y con espacios en blanco, y que muestre por pantalla 
+la cadena, ésta puede ser un usuario o un token, por ejemplo.
+
+Para esto haga uso de convertidor <str:cadena>, que se puede usar para definir parámetros de 
+cadena que excluyen el símbolo "/", y verifica si la cadena no está vacía.
+
+El siguiente punto final de URL para definir el parámetro de URL:
+
+http://localhost:8000/producto/username/juanperez/
+
+
+La salida es:
+
+                              El username es: juenperez
